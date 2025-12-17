@@ -1,56 +1,20 @@
 import type React from "react"
 import type { Metadata } from "next"
-import localFont from "next/font/local"
+import { Vazirmatn } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
-const iranSans = localFont({
-  src: [
-    {
-      path: "../public/fonts/IRANSans-Regular.woff2",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/IRANSans-Medium.woff2",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/IRANSans-Bold.woff2",
-      weight: "700",
-      style: "normal",
-    },
-  ],
+const vazirmatn = Vazirmatn({
+  subsets: ["arabic"],
+  weight: ["400", "600", "700"],
   variable: "--font-sans",
-  display: "swap",
-})
-
-const vazirmatn = localFont({
-  src: [
-    {
-      path: "../public/fonts/Vazirmatn-Regular.woff2",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/Vazirmatn-SemiBold.woff2",
-      weight: "600",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/Vazirmatn-Bold.woff2",
-      weight: "700",
-      style: "normal",
-    },
-  ],
-  variable: "--font-heading",
   display: "swap",
 })
 
 export const metadata: Metadata = {
   title: "آمینی روبوکُد | آموزش رباتیک و برنامه‌نویسی برای کودکان و نوجوانان",
-  description: "آموزش رباتیک، برنامه‌نویسی، و تقویت هوش فضایی کودکان و نوجوانان با رویکرد روان‌شناسی و پروژه‌محور",
+  description:
+    "آموزش رباتیک، برنامه‌نویسی، و تقویت هوش فضایی کودکان و نوجوانان با رویکرد روان‌شناسی و پروژه‌محور",
   keywords:
     "آموزش رباتیک کودکان، آموزش برنامه‌نویسی، تقویت هوش فضایی، رفع اختلالات یادگیری با رباتیک، الگوریتم و فلوچارت",
   generator: "v0.app",
@@ -81,12 +45,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
-    <html lang="fa" dir="rtl" className={`${iranSans.variable} ${vazirmatn.variable}`}>
-      <body className={`font-sans antialiased`}>
+    <html lang="fa" dir="rtl" className={vazirmatn.variable}>
+      <body className="font-sans antialiased">
         {children}
         <Analytics />
       </body>
