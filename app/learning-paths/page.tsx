@@ -239,7 +239,7 @@ export default function LearningPathsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-balance">
-                مسیرهای یادگیری آمینی روبوکُد
+                مسیرهای یادگیری امینی روبوکُد
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 text-pretty">
                 هر کودک مسیر منحصربه‌فرد خود را دارد. مسیرهای یادگیری ما به‌صورت گام‌به‌گام طراحی شده‌اند تا فرزندتان از
