@@ -28,12 +28,12 @@ export function BrandStorySection() {
     <section className="py-16 lg:py-24">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-12">
-          <span className="text-sm font-semibold text-primary mb-2 block">چرا آمینی روبوکُد؟</span>
+          <span className="text-sm font-semibold text-primary mb-2 block">چرا امینی روبوکُد؟</span>
           <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4 text-balance">
             ترکیب منحصربه‌فرد رباتیک، برنامه‌نویسی و روان‌شناسی
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed text-pretty">
-            ما در آمینی روبوکُد معتقدیم که آموزش رباتیک فراتر از یادگیری فناوری است. این مسیری است برای رشد مهارت‌های
+            ما در امینی روبوکُد معتقدیم که آموزش رباتیک فراتر از یادگیری فناوری است. این مسیری است برای رشد مهارت‌های
             شناختی، تقویت هوش فضایی، و آماده‌سازی کودکان برای آینده‌ای پر از فرصت.
           </p>
         </div>
