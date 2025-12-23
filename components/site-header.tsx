@@ -44,7 +44,7 @@ export function SiteHeader() {
           {/* Logo - Right side in RTL */}
           <Link href="/" className="flex items-center gap-2">
             <span className="text-2xl font-bold font-heading bg-gradient-to-l from-primary to-accent bg-clip-text text-transparent">
-              آمینی روبوکُد
+              امینی روبوکُد
             </span>
           </Link>
 
