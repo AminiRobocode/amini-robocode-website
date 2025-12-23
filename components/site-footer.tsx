@@ -11,7 +11,7 @@ export function SiteFooter() {
           {/* Brand and Description */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold font-heading bg-gradient-to-l from-primary to-accent bg-clip-text text-transparent">
-              آمینی روبوکُد
+              امینی روبوکُد
             </h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
               آموزش رباتیک و برنامه‌نویسی برای کودکان و نوجوانان با رویکرد روان‌شناسی و پروژه‌محور
@@ -99,7 +99,7 @@ export function SiteFooter() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} آمینی روبوکُد. تمامی حقوق محفوظ است.</p>
+          <p>© {new Date().getFullYear()} امینی روبوکُد. تمامی حقوق محفوظ است.</p>
         </div>
       </div>
     </footer>
