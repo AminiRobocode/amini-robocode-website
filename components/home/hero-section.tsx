@@ -20,7 +20,7 @@ export function HeroSection() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading leading-tight text-balance">
-              آمینی روبوکُد؛ جایی که رباتیک و برنامه‌نویسی با{" "}
+              امینی روبوکُد؛ جایی که رباتیک و برنامه‌نویسی با{" "}
               <span className="bg-gradient-to-l from-primary via-accent to-secondary bg-clip-text text-transparent">
                 رشد ذهنی کودکان
               </span>{" "}
