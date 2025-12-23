@@ -69,7 +69,7 @@ const team = [
 const achievements = [
   {
     year: "۱۳۹۵",
-    title: "تاسیس آمینی روبوکُد",
+    title: "تاسیس امینی روبوکُد",
     description: "شروع فعالیت با ۲۰ دانش‌آموز",
   },
   {
@@ -104,9 +104,9 @@ export default function AboutPage() {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6 order-2 lg:order-1">
-                <h1 className="text-4xl md:text-5xl font-bold font-heading text-balance">درباره آمینی روبوکُد</h1>
+                <h1 className="text-4xl md:text-5xl font-bold font-heading text-balance">درباره امینی روبوکُد</h1>
                 <p className="text-lg text-muted-foreground leading-relaxed text-pretty">
-                  آمینی روبوکُد در سال ۱۳۹۵ با هدف ارائه آموزش رباتیک و برنامه‌نویسی با رویکرد روان‌شناختی و پروژه‌محور
+                  امینی روبوکُد در سال ۱۳۹۵ با هدف ارائه آموزش رباتیک و برنامه‌نویسی با رویکرد روان‌شناختی و پروژه‌محور
                   تاسیس شد. ما معتقدیم که آموزش رباتیک فراتر از یادگیری فناوری است و می‌تواند به رشد جامع کودکان در ابعاد
                   شناختی، اجتماعی و عاطفی کمک کند.
                 </p>
@@ -121,7 +121,7 @@ export default function AboutPage() {
               <div className="relative aspect-square lg:aspect-auto lg:h-[500px] order-1 lg:order-2">
                 <Image
                   src="/about-team-teaching-robotics.jpg"
-                  alt="تیم آمینی روبوکُد"
+                  alt="تیم امینی روبوکُد"
                   fill
                   className="rounded-3xl object-cover shadow-2xl"
                 />
@@ -192,7 +192,7 @@ export default function AboutPage() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">مسیر پیشرفت ما</h2>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">سفر آمینی روبوکُد از آغاز تا امروز</p>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">سفر امینی روبوکُد از آغاز تا امروز</p>
             </div>
             <div className="max-w-4xl mx-auto">
               <div className="relative">
@@ -233,7 +233,7 @@ export default function AboutPage() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">تیم ما</h2>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">افرادی که آمینی روبوکُد را می‌سازند</p>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">افرادی که امینی روبوکُد را می‌سازند</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {team.map((member, index) => (
