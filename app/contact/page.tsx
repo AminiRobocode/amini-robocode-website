@@ -62,7 +62,7 @@ export default function ContactPage() {
         <section className="bg-gradient-to-bl from-primary/10 via-background to-accent/10 py-16 lg:py-24">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-balance">تماس با آمینی روبوکُد</h1>
+              <h1 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-balance">تماس با امینی روبوکُد</h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed text-pretty">
                 سوال، نظر یا پیشنهادی دارید؟ ما همیشه خوشحال می‌شویم که از شما بشنویم. از طریق فرم زیر با ما در ارتباط
                 باشید.
