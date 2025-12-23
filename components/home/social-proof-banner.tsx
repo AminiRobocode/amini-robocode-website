@@ -13,7 +13,7 @@ export function SocialProofBanner() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center gap-6">
           <p className="text-center text-sm font-medium text-muted-foreground">
-            بیش از <span className="text-primary font-bold">۱۵۰۰ خانواده</span> به آمینی روبوکُد اعتماد کرده‌اند
+            بیش از <span className="text-primary font-bold">۱۵۰۰ خانواده</span> به امینی روبوکُد اعتماد کرده‌اند
           </p>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 w-full max-w-4xl">
             {badges.map((badge, index) => (
