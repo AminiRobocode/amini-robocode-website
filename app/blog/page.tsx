@@ -120,7 +120,7 @@ export default function BlogPage() {
         <section className="bg-gradient-to-bl from-primary/10 via-background to-accent/10 py-16 lg:py-24">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-balance">بلاگ آمینی روبوکُد</h1>
+              <h1 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-balance">بلاگ امینی روبوکُد</h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 text-pretty">
                 مقالات، راهنماها و آخرین اخبار دنیای رباتیک، برنامه‌نویسی و آموزش کودکان
               </p>
