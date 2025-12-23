@@ -137,7 +137,7 @@ export default function CoursesPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-balance">
-                دوره‌های آموزشی آمینی روبوکُد
+                دوره‌های آموزشی امینی روبوکُد
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 text-pretty">
                 از بین دوره‌های متنوع ما، مناسب‌ترین را برای فرزندتان انتخاب کنید. همه دوره‌ها با رویکرد پروژه‌محور و تعاملی
